@@ -1,0 +1,15 @@
+/**Overrides Bootstrap */
+.wrapper{
+    width: 980px;
+    margin: 0 auto;
+}
+
+#dashboard-main{
+    background: #f2f2f2;
+    min-height: 500px;
+}
+
+#dashboard-side{
+    background: #f2f2f2;
+    min-height: 500px;
+}
