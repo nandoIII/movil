@@ -19,11 +19,11 @@ class User_model extends CI_Model{
          * @uses element Description
          */
         if($user_id === null){
-            $q = $this->db->get('user');
+            $q = $this->db->get('usuario');
         }else{
             $q = $this->db->get_where('user',array('user_id'=>$user_id));
         }
-        
+//        $this->output->enable_profiler();
         return $q->result_array();
     }
     /**

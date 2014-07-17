@@ -1,8 +1,7 @@
     </div>
     <!--End wrapper-->
         <footer>
-            &copy; <?php echo  date('Y')?>  
-            <? echo "hola desde el footer"?>
+            &copy; <?php echo  date('Y')?>            
         </footer>
     </body>
 </html>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>JrDash</title>
+        <title>Reportero Ciudadano</title>
         <link rel="stylesheet" href="<?php echo base_url()?>public/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo base_url()?>public/css/style.css">
         
@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            JrDash
+            Reportero Ciudadano
         </header>
         <!--Start wrapper-->
         <div class="wrapper">

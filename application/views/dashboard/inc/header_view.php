@@ -12,7 +12,7 @@
         
         <nav class="navbar">
             <div class="navbar-inner">
-                <span class="brand">jrDash</span>
+                <span class="brand">Reportero Ciudadano</span>
                 <ul class="nav">
                     <li><a href="#">Dashboard</a></li>
                     <li><a href="#">User</a></li>

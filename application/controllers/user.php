@@ -1,14 +1,10 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
  * Description of user
  *
- * @author Hernando Peña <your.name at your.org>
+ * @author Hernando Peña <hernando.pena at elheraldo.co>
  */
 class User extends CI_Controller{
     
@@ -35,7 +31,7 @@ class User extends CI_Controller{
     {
         $data = array(
             'login' => 'Peggy'
-        );        
+        );
         $result = $this->user_model->update($data, 3);
         print_r($result);
     }
@@ -44,6 +40,7 @@ class User extends CI_Controller{
         $result = $this->user_model->delete(2);
         print_r($result);
     }
+    
     public function login(){
         $data = array(
             'user_id' => 1
@@ -52,7 +49,7 @@ class User extends CI_Controller{
         $session = $this->session->all_userdata();
         print_r($session);
     }
-    
+
 }
 
 ?>
