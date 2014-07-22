@@ -1,9 +1,5 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
  * Description of home
@@ -19,9 +15,14 @@ class Home extends CI_Controller {
         $this->load->view('home/inc/footer_view');
     }
     
-    public function test(){
-        $q = $this->db->get('user');
-        print_r($q->result());
+    public function code() {
+        echo hash('sha256', 'admin' . SALT);
+    }
+    
+    public function register() {
+        $this->load->view('home/inc/header_view');
+        $this->load->view('home/register_view');
+        $this->load->view('home/inc/footer_view');        
     }
 }
 

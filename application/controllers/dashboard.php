@@ -4,7 +4,7 @@
 /**
  * Description of dashboard
  *
- * @author nando_000
+ * @author Hernando Peña <hernando.pena at elheraldo.co>
  */
 class Dashboard extends CI_Controller {
     
