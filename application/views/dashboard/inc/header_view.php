@@ -6,7 +6,21 @@
         <link rel="stylesheet" href="<?php echo base_url()?>public/css/style.css">
         
         <script src="<?php echo base_url()?>public/js/jquery.js"></script>
-        <script src="<?php echo base_url()?>public/js/bootstrap.js"></script>
+        <script src="<?php echo base_url()?>public/js/bootstrap.js"></script>        
+        <script src="<?php echo base_url()?>public/js/rep_ciudadano/dashboard/result.js"></script>
+        <script src="<?php echo base_url()?>public/js/rep_ciudadano/dashboard/event.js"></script>        
+        <script src="<?php echo base_url()?>public/js/rep_ciudadano/dashboard/template.js"></script>        
+        <script src="<?php echo base_url()?>public/js/rep_ciudadano/dashboard.js"></script>
+        
+        
+        
+<script type="text/javascript">
+    $(function() {
+        //Inicializar la aplicacion Dashboard
+        var dashboard = new Dashboard();
+    });
+</script>              
+        
     </head>
     <body>
         
@@ -22,3 +36,5 @@
         </nav>
         <!--Start wrapper-->
         <div class="wrapper">
+            <div id="error" class="alert alert-error hide"></div>
+            <div id="success" class="alert alert-success hide"></div>

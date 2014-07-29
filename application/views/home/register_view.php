@@ -1,7 +1,7 @@
 <div class="row">
     <div id="register_form_error" class="alert alert-error"><!--Dynamic--></div>
     <div class="span6">
-        <form id="register_form" class="form-horizontal" method="POST" action="<?php echo site_url('user/register') ?>">
+        <form id="register_form" class="form-horizontal" method="POST" action="<?php echo site_url('api/register') ?>">
 
             <div class="control-group">
                 <label class="control-label">Login</label>
